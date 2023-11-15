@@ -23,7 +23,7 @@ async def upload_form(request: Request):
 
 #Function defined to convert bytes to image 
 def convert_bytes_to_image(data):
-    image=np.array(Image.open(io.BytesIO(data)))
+    image=np.array(Image.open(io.BytesIO(data)).resize((256,256)))
     return image
 
 #define post method for prediction api test

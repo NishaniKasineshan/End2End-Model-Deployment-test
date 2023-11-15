@@ -1,0 +1,6 @@
+uvicorn==0.20.0
+tensorflow 
+Pillow 
+numpy
+fastapi==0.92.0
+Jinja2
