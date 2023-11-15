@@ -1,4 +1,4 @@
-name: ci
+name: end2end model deployment using docker and github actions
 
 on:
   push:
