@@ -1,5 +1,5 @@
 uvicorn==0.20.0
-tensorflow 
+tensorflow==2.12.0rc0
 Pillow 
 numpy
 fastapi==0.92.0
